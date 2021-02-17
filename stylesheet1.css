@@ -1,0 +1,76 @@
+@font-face {
+    src: url(CutiveMono-Regular.ttf);
+    font-family: cazzo;
+}
+
+.centerme {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(8, 92, 8)
+}
+
+body {
+    color: rgb(33, 97, 39);
+}
+
+body {
+    background-color: rgb(236, 227, 208);
+}
+
+body {
+    font-family: cazzo;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(238, 238, 245);
+    width: 900px;
+    padding: 2em;
+    margin: 2em;
+}
+
+.redcon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 5px solid rgb(170, 10, 10);
+    padding: 5px;
+    margin: 5px;
+    width: 400px;
+    align-items: center;
+    
+}
+
+div {
+    margin: 5px
+}
+
+.title {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 5px;
+    align-items: flex-start
+}
+
+.italic {
+    font-style: italic;
+}
+
+.maincontentbox {
+    display:flex;
+    width:100%;
+    justify-content: center;
+
+}
